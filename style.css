@@ -496,6 +496,14 @@ button {
   .slider-bg h1 {
     font-size: 30px;
   }
+  .billboard .billboard-first-wrapper .right-part h2,
+  .billboard .billboard-second-wrapper .left-part h2 {
+    font-size: 17px;
+  }
+  .billboard .billboard-first-wrapper .right-part p,
+  .billboard .billboard-second-wrapper .left-part p {
+    font-size: 13px;
+  }
 }
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 360px) {
@@ -507,14 +515,6 @@ button {
   }
   .service-section .servs {
     font-size: 35;
-  }
-  .billboard .billboard-first-wrapper .right-part h2,
-  .billboard .billboard-second-wrapper .left-part h2 {
-    font-size: 17px;
-  }
-  .billboard .billboard-first-wrapper .right-part p,
-  .billboard .billboard-second-wrapper .left-part p {
-    font-size: 13px;
   }
 }
 /*----------------------------------------------------------------------------------------*/

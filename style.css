@@ -480,6 +480,12 @@ button {
   .service-section .servs {
     font-size: 40px;
   }
+  .billboard h1 {
+    font-size: 25px;
+  }
+  .billboard .header-part {
+    padding: 0 20px;
+  }
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -501,6 +507,12 @@ button {
   }
   .service-section .servs {
     font-size: 35;
+  }
+  .billboard .billboard-first-wrapper .right-part h2,.billboard .billboard-second-wrapper .left-part h2 {
+    font-size: 25px;
+  }
+  .billboard .billboard-first-wrapper .right-part p,.billboard .billboard-second-wrapper .left-part p {
+    font-size: 15px;
   }
 }
 /*----------------------------------------------------------------------------------------*/

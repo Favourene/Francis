@@ -253,7 +253,7 @@ button {
   color: #161619;
 }
 .billboard {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   text-align: center;
 }
 .billboard .header-part {
@@ -330,6 +330,59 @@ button {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 2px;
+}
+.contact-us {
+  background: url('./img/help.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 50px;
+}
+.contact-us h1 {
+  font-size: 65px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+.contact-us p {
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 20px;
+}
+.contact-us button {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0aa06;
+  color: #fff;
+}
+.contact-us button:hover {
+  background: none;
+  border: 1px solid #fff;
+}
+footer{
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+footer .footer-child{
+  width: 24%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .footer-child img{
+ padding-bottom: 10px;
+}
+footer .footer-child h1{
+ color: #161619;
+ padding-bottom: 5px;
+}
+footer .footer-child p{
+ color: #555353;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -431,6 +484,16 @@ button {
     width: 100%;
     padding: 30px 20px;
   }
+  .contact-us h1 {
+    font-size: 45px;
+  }
+  footer{
+    padding:50px 20px;
+  }
+  footer .footer-child{
+  width: 46%;
+  margin-bottom: 20px;
+}
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -486,7 +549,18 @@ button {
   .billboard .header-part {
     padding: 0 20px;
   }
+  .contact-us h1 {
+    font-size: 25px;
+  }
+  .contact-us p {
+    font-size: 17px;
+  }
+    footer .footer-child{
+  width: 100%;
+  margin-bottom: 20px;
 }
+}
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 460px) {
